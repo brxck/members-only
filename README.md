@@ -1,24 +1,11 @@
-# README
+# members-only
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a project on user authentication and authorization for [The Odin Project: Authentication](https://www.theodinproject.com/lessons/authentication).
 
-Things you may want to cover:
+The members-only homepage displays posts made by registered users. Names of the authors are only displayed to other logged-in users.
 
-* Ruby version
+I have implemented all the functionality needed to register, log in, log out, write posts, and view them.
 
-* System dependencies
+This exercise really helped me cement the knowledge contained in the RailsTutorial chapters I did previously. I'm much more comfortable with creating my own models, controllers, and the views which interact with them.
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+This was a project in roll-your-own authentication, but in the future I will definitely be using a battle-tested authentication gem like Devise.
