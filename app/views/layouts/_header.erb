@@ -1,0 +1,6 @@
+<%= content_tag :div, 'members-only', class: 'title' %>
+<% if logged_in? %>
+  <div class='header'>
+    <%= link_to 'write', write_path %>
+  </div>
+<% end %>

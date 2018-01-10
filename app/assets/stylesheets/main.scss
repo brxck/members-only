@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css?family=Inconsolata');
+
+body {
+  font-family: 'Inconsolata', monospace;
+  color: whitesmoke;
+  background-color: black;
+  text-align: center;
+}
+
+.title {
+  margin-top: 5em;
+  margin-bottom: 3em;
+  color: whitesmoke;
+}
+
+.header, .footer {
+  margin-top: 2em;
+  margin-bottom: 2em;
+  color: whitesmoke;
+}
+
+.author {
+  margin-bottom: 1em;
+}
+
+a:link, :visited, :hover, :active,  {
+  color: whitesmoke;
+}
+
+input {
+  color: whitesmoke;
+  background-color: black;
+  border-style: solid;
+  border-color: whitesmoke;
+  border-width: 1px;
+  border-radius: 5px;
+  font-family: Inconsolata;
+  margin-bottom: 1em;
+  margin-top: 0.25em;
+  text-align: center;
+}
+
+.button {
+  background-color: black;
+  border-style: none;
+  color: whitesmoke;
+  font-size: 1em;
+  text-decoration: underline;
+}
+
+.write {
+  width: 40vw;
+  height: 2em;
+}

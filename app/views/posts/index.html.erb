@@ -1,0 +1,8 @@
+<% @posts.each do |post| %>
+  <%= content_tag :div, post.body, class: post %>
+  <% if logged_in? %>
+    <%= content_tag :div, "--#{User.find_by(id: post.user_id).name}", class: 'author' %>
+  <% else %>
+    <%= content_tag :div, '--anon', class: 'author' %>
+  <% end %>
+<% end %>

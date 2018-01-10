@@ -1,0 +1,12 @@
+<div class='footer'>
+  <% if logged_in? %>
+    <%= link_to 'logout', logout_url %><br>
+  <% else %>
+    <% if !current_page?('/login') %>
+      <%= link_to 'login', login_url %><br><br>
+    <% end %>
+    <% if !current_page?('/signup') %>
+      <%= link_to 'signup', signup_url %><br>
+    <% end %>  
+  <% end %>
+</div>

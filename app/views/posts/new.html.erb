@@ -1,0 +1,5 @@
+<%= form_for @post, url: write_path, method: 'post' do |f| %>
+  <%= f.label :text, "what's up?" %><br>
+  <%= f.text_field :body, class: 'write' %><br>
+  <%= f.submit 'publish', class: 'button' %>
+<% end %>
